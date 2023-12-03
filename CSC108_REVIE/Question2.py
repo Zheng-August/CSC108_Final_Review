@@ -9,16 +9,6 @@ def sort_contacts(contacts: list[str]) -> None:
     ['Angela', '876', 'Dan', '777', 'Rutwa', '921']
     '''
     # Your code here
-    name_lst = []
-    for i in range(0,len(contacts),2):
-        name_lst.append(contacts[i])
-    name_lst.sort()
-    contacts_copy = contacts[:]
-    contacts.clear()
-    for name in name_lst:
-        contacts.append(name)
-        index = contacts_copy.index(name)
-        contacts.append(contacts_copy[index])
 
 
 if __name__ == '__main__':
