@@ -33,7 +33,7 @@ def read_all_schools(f: TextIO) -> dict[str, list[str]]:
     
 
 
-f = open("Final Reveiw/school_file.txt",'r')
+f = open("school_file.txt",'r')
 exc = {'UTM': ['Daniel Zingaro', 'Petersen'],'Hogwarts': ['Hagrid', 'Albus Dumbledore', 'Minerva McGonagall', 'Lupin', 'Flitwick']}
 print(read_all_schools(f) == exc) #如果运行后显示 True 说明代码正确
 f.close()
