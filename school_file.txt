@@ -1,0 +1,9 @@
+SCHOOL UTM
+PROF 62 Daniel Zingaro
+PROF 7 Petersen
+SCHOOL Hogwarts
+PROF 9 Hagrid
+PROF 10 Albus Dumbledore
+PROF 2 Minerva McGonagall
+PROF 4567 Lupin
+PROF 7 Flitwick
