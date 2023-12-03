@@ -18,13 +18,6 @@ def count_duplicates_v1(lst: list[int]) -> int:
     2
     """
     # Your code here
-    matches = []
-    for i in range(len(lst)-1,-1,-1):
-        element = lst[i]
-        lst.pop()
-        if not element in matches and element in lst:
-            matches.append(element)
-    return len(matches)
 
 
 if __name__ == '__main__':
