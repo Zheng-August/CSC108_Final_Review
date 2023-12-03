@@ -17,10 +17,7 @@ def swap_rows_and_columns(grid: list[list[int]]) -> None:
     ...        [3, 6, 9]]
     True
     """
-    n = len(grid)  # Assuming it's a square matrix as per the precondition
-    for i in range(n):
-        for j in range(i + 1, n):  # Start from i + 1 to avoid swapping elements on the diagonal
-            grid[i][j], grid[j][i] = grid[j][i], grid[i][j]
+    #ur function here
 
 if __name__ == '__main__':
     import doctest
